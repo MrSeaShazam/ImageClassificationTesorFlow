@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+//
         select_image_button = findViewById(R.id.button)
         make_prediction = findViewById(R.id.button2)
         img_view = findViewById(R.id.imageView2)
